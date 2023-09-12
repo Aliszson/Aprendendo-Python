@@ -21,6 +21,7 @@ while opc != 5:
     [ 5 ] sair do programa""")
     
     opc = int(input("Digite o número da opção desejada: "))
+    print('-=-' * 11)
     if opc == 1:
         print(f'A soma de {v1} + {v2} é: {v1+v2}')
     elif opc == 2:
@@ -36,6 +37,9 @@ while opc != 5:
     elif opc == 4:
         v1 = int(input('Valor 1: '))
         v2 = int(input('Valor 2: '))
+    elif opc == 5:
+        print('Saindo...')
     else:
-        opc = 5
-print('Saindo...')
+        print('Opção inválida!')
+    print('-=-' * 11)
+print('Programa Encerrado!')
