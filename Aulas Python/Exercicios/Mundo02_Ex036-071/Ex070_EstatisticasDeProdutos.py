@@ -18,7 +18,7 @@ while True:
     if cont == 1 or preco < menor:
         menor = preco
         nomebarato = nome
-
+    opc = ''
     while opc not in 'SN':
         opc = str(input('Quer continuar: [S/N] ')).strip().upper().split()[0]
     if opc == 'N':
